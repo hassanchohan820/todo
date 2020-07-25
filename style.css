@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+ text-align: center;
+ margin: 20px;
+ width: 380px;
+ padding: 50px;
+ margin: 50px auto;
+ -webkit-box-shadow: -1px 3px 29px -2px rgba(0,0,0,0.75);
+ -moz-box-shadow: -1px 3px 29px -2px rgba(0,0,0,0.75);
+ box-shadow: -1px 3px 29px -2px rgba(0,0,0,0.75);
+}
+#todo-item{
+     padding: 5px;
+     width: 200px;
+}
+button{
+padding: 7px;
+color: white;
+background-color: rgb(117, 118, 221);
+border-radius: 20px;
+cursor: pointer;
+}
+button:focus{
+outline: none;
+}
+h1{
+text-align: center;
+}
